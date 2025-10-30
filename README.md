@@ -16,7 +16,6 @@ To implement univariate Linear Regression to fit a straight line using least squ
 ## Program
 
  Developed by: E GOPIJAYARAM
- 
  Register Number: 25013725
 
  
@@ -30,11 +29,11 @@ To implement univariate Linear Regression to fit a straight line using least squ
  for i in range(len(X)):
   num+=(X[i]-X_mean)*(Y[i]-Y_mean)
   den+=(X[i]-X_mean)**2
- m=num/den
- c=Y_mean-m*X_mean
- print(m,c)
- Y_pred=m*X+c
- print(Y_pred)
+  m=num/den
+  c=Y_mean-m*X_mean
+  print(m,c)
+  Y_pred=m*X+c
+  print(Y_pred)
 
 
 
